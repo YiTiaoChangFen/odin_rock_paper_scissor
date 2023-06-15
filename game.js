@@ -1,6 +1,5 @@
 function getComputerChoice() {
     let choiceIndex = Math.floor(Math.random() * 3);
-    console.log(choiceIndex);
 
     switch(choiceIndex) {
         case 0:
@@ -14,7 +13,3 @@ function getComputerChoice() {
             break;
     }
 }
-
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
